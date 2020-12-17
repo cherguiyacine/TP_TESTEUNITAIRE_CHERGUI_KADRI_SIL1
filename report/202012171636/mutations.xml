@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mutations>
+<mutation detected='false' status='SURVIVED' numberOfTestsRun='1'><sourceFile>Calc.java</sourceFile><mutatedClass>Model.Calc</mutatedClass><mutatedMethod>add</mutatedMethod><methodDescription>(II)I</methodDescription><lineNumber>6</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator><index>5</index><block>0</block><killingTest/><description>Replaced integer addition with subtraction</description></mutation>
+<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>Calc.java</sourceFile><mutatedClass>Model.Calc</mutatedClass><mutatedMethod>add</mutatedMethod><methodDescription>(II)I</methodDescription><lineNumber>6</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator</mutator><index>6</index><block>0</block><killingTest>Test.CalcTest.add(Test.CalcTest)</killingTest><description>replaced int return with 0 for Model/Calc::add</description></mutation>
+</mutations>
